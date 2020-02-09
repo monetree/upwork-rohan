@@ -791,6 +791,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(JSON.stringify(this.state.dt2groups))
     return (
       <div>
         <div className="w3-row-padding">
@@ -1193,8 +1194,6 @@ class App extends React.Component {
                       }
             
                 </div>
-       
-    
         </div>
       </div>
     );
